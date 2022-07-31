@@ -1,0 +1,6 @@
+C:\Users\Rodolfo\Documents\Cefet\TCC\Cliente\Cliente\bin\Debug\Cliente.exe.config
+C:\Users\Rodolfo\Documents\Cefet\TCC\Cliente\Cliente\bin\Debug\Cliente.exe
+C:\Users\Rodolfo\Documents\Cefet\TCC\Cliente\Cliente\bin\Debug\Cliente.pdb
+C:\Users\Rodolfo\Documents\Cefet\TCC\Cliente\Cliente\obj\Debug\Cliente.csprojResolveAssemblyReference.cache
+C:\Users\Rodolfo\Documents\Cefet\TCC\Cliente\Cliente\obj\Debug\Cliente.exe
+C:\Users\Rodolfo\Documents\Cefet\TCC\Cliente\Cliente\obj\Debug\Cliente.pdb

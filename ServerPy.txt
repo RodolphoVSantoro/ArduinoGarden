@@ -1,0 +1,50 @@
+import sys
+import socket
+
+HOST = ''
+PORTA = 5000
+
+def cvrt(str):
+    try:
+        int(str)
+    except:
+        return 0
+    return int(str)
+
+def process_dados(m):
+    if cvrt(m) == 0:
+        msg = "saindo do programa"
+    elif cvrt(m) == 1:
+        msg = "Voce pediu o menu 1"
+    elif cvrt(m) == 2:
+        msg = "Voce pediu o menu 2"
+    elif cvrt(m) == 3:
+        msg = "configuracoes"
+    else:
+        msg = "opcao invalida("+ m +")"
+    return msg
+
+print("Tentando criar servidor com todos as interfaces! \nUtilizando a porta:\n" + str(PORTA))
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+try:
+    s.bind((HOST, PORTA))
+except socket.error as msg:
+    print("Erro ao criar socket. Erro de codigo:" + str(msg[0]) + " Message " + msg[1])
+    sys.exit()
+print("Socket criado")
+
+s.listen(10)
+print("Socket esperando conexao")
+conn, addr = s.accept()
+print("Conectado com: " + addr[0] + ':' + str(addr[1]) + "\n")
+while 1:
+    menu = "Digite 1 para menu 1, 2 para menu 2, 3 para configuracoes:\n"
+    conn.send(menu.encode('UTF-8'))
+    data = conn.recv(1024)
+    reply = data.decode('UTF-8')
+    print("Cliente Enviou: " + reply + "\n")
+    msg = process_dados(reply)
+    print("Enviando :\""+msg+"\"")
+    msg = msg+"\n"
+    conn.send(msg.encode('UTF-8'))
+s.close()
