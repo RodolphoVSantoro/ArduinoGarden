@@ -1,0 +1,5 @@
+C:\Users\Rodolfo\Documents\Cefet\TCC\e\e\bin\Debug\e.exe.config
+C:\Users\Rodolfo\Documents\Cefet\TCC\e\e\bin\Debug\e.exe
+C:\Users\Rodolfo\Documents\Cefet\TCC\e\e\bin\Debug\e.pdb
+C:\Users\Rodolfo\Documents\Cefet\TCC\e\e\obj\Debug\e.exe
+C:\Users\Rodolfo\Documents\Cefet\TCC\e\e\obj\Debug\e.pdb

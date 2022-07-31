@@ -1,0 +1,5 @@
+C:\Users\Rodolfo\Documents\Cefet\TCC\ServerForm\ServerForm\bin\Debug\ServerForm.exe.config
+C:\Users\Rodolfo\Documents\Cefet\TCC\ServerForm\ServerForm\obj\Debug\ServerForm.csprojResolveAssemblyReference.cache
+C:\Users\Rodolfo\Documents\Cefet\TCC\ServerForm\ServerForm\obj\Debug\Servidor.Server.resources
+C:\Users\Rodolfo\Documents\Cefet\TCC\ServerForm\ServerForm\obj\Debug\ServerForm.Properties.Resources.resources
+C:\Users\Rodolfo\Documents\Cefet\TCC\ServerForm\ServerForm\obj\Debug\ServerForm.csproj.GenerateResource.Cache

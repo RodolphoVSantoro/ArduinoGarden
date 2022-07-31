@@ -1,0 +1,6 @@
+C:\Users\Rodolfo\Documents\Cefet\TCC\Server\Server\bin\Debug\Server.exe.config
+C:\Users\Rodolfo\Documents\Cefet\TCC\Server\Server\bin\Debug\Server.exe
+C:\Users\Rodolfo\Documents\Cefet\TCC\Server\Server\bin\Debug\Server.pdb
+C:\Users\Rodolfo\Documents\Cefet\TCC\Server\Server\obj\Debug\Server.exe
+C:\Users\Rodolfo\Documents\Cefet\TCC\Server\Server\obj\Debug\Server.pdb
+C:\Users\Rodolfo\Documents\Cefet\TCC\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
